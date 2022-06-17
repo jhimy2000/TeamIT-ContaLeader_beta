@@ -158,3 +158,66 @@ main{
     font-size:1.2rem;
     padding-top:10px;
 }
+
+.section-buy-information{
+    width:100%;
+    margin-top:10px;
+    text-align:center;
+
+}
+
+.section-buy-information .information-card{
+    height:316px;
+    display:flex;
+    overflow-x:scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.section-buy-information .content-cards{
+    position:relative;
+    width:70%;
+    height:230px;
+    padding:0 15px;
+    min-width:170px;
+    max-width:300px;
+    margin: 50px 5px 0;
+    scroll-snap-align:center;
+    background-color:var(--soft-white);
+    border-radius:15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    justify-content:center;
+}
+
+.content-cards .recommended{
+    position:absolute;
+    top:-15px;
+    width:85px;
+    padding:6px;
+    height:30px;
+    left: calc(50% - 42px);
+    background-color: var(--second-color-blue);
+    color:var(--just-white);
+    font-size:1.2rem;
+    border-radius:5px;
+    font-weight:bold;
+}
+.content-cards h3,.text-content{
+    color:var(--second-color-blue);
+}
+
+.content-cards h3{
+    padding-top:30px;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.card-image__content{
+    width:50%;
+    margin-left:30px;
+}
+
+.content-cards .text-content{
+    font-weight:normal;
+    padding-top:20px;
+    font-size:1.0rem;
+    flex-wrap:wrap;
+}
