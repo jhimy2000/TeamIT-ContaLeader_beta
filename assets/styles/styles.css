@@ -158,3 +158,88 @@ main{
     font-size:1.2rem;
     padding-top:10px;
 }
+
+.product-detail--card span{
+    margin:0 auto;
+}
+.product-detail--card .clocks{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-image: url('/assets/imagen/time.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.product-detail--card .pay{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    background-image: url('/assets/imagen/pay.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.product-detail--card .business{
+    display:inline-block;
+    width: 30px;
+    height:30px;
+    background-image: url('/assets/imagen/contador.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.button--download a {
+    text-decoration: none;
+    color:var(--just-white);
+}
+.section-download__counter{
+    position:relative;
+    width:100%;
+    height: auto;
+    display:flex;
+    flex-direction:column;
+    background-color: var(--second-color-blue);
+}
+.section-counter__text{
+    color:var(--just-white);
+    margin:0 auto;
+    padding:50px 10px;
+}
+
+.section-counter_text .section-download_title{
+    line-height:7rem;
+    text-align:center;
+    font-size:2.7rem;
+}
+.section-download__counter img{
+    width:80px;
+    margin:0 auto;
+}
+.section-download_counter .section-content_button{
+    display:flex;
+    align-self:center;
+    padding:30px 0;
+}
+.section-download__counter .button--download{
+    width: 120px;
+    height:30px;
+    border-radius:40px;
+    background-color:var(--just-black);
+    color: var(--just-white);
+    border:none;
+}
+.section-download_counter .section-download_content{
+    font-size:1.4rem;
+
+}
+.section-download__counter .right{
+    margin-right:50px;
+}
+
+.section-download__counter .left{
+    margin-left:30px;
+    margin-top:0;
+}
+
+
