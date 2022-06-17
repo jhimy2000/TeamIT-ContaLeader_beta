@@ -1,0 +1,26 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+:root{
+    /*Colores*/
+    --primary-color-green: #05be50;
+    --second-color-blue: #0039a6;
+    --just-white: #FFFFFF;
+    --text-grays: #808080;
+    --just-black: #000000;
+    --soft-white: #faf8f7;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
