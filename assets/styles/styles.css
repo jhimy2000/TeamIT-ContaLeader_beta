@@ -303,3 +303,128 @@ main{
     font-size:1.0rem;
     flex-wrap:wrap;
 }
+.section-about-content{
+    position:relative;
+    width:100%;
+    height:auto;
+}
+.section-about-content .about-the-team__content{
+    width:90%;
+    margin:0 auto;
+}
+.about__content{
+    color: var(--second-color-blue);
+    text-align:center;
+}
+.about-the-team__content .about__content{
+    text-align:center;
+    padding:10px;
+    line-height:1.4rem;
+}
+.sectionvideo{
+    display:flex;
+    margin-bottom: 40px;
+}
+.videoteam {
+    width:90%;
+    margin:0 auto;
+}
+
+.about-the-product__content{
+    width:90%;
+    margin: 0 auto;
+}
+.about-the-product__content .about__content{
+    width:90%;
+    margin:0 auto;
+    line-height:1.4rem;
+}
+
+.call-to-action{
+    position:relative;
+    width:100%;
+    height:350px;
+    background-image:url(/assets/imagen/ciudad.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.call-to-action .div-call__content{
+    /*display:flex;
+    position:absolute;
+    flex-direction:column;
+    justify-content:center;*/
+    width:300px;
+    text-align:center;
+    background-color:var(--just-black);
+    /*align-items:center;*/
+    line-height: 3.0rem;
+    max-width: 306px;
+    border-radius:5px;
+}
+.div-call__content .call-to-action__title,.call-to-action__content{
+    color:var(--just-white);
+}
+
+.div-call__content .call-to-action__title{
+    font-weight:bold;
+    font-size:1.6rem;
+}
+
+.call-to-action__content{
+    font-size:1.0rem;
+}
+.button-call-action{
+    font-size:1.4rem;
+    padding:2px 5px;
+    margin-top:14px;
+    border:none;
+    Color: var(--just-white);
+    background-color:var(--second-color-blue);
+    border-radius:7px;
+    margin-right:5px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.footer{
+    position:relative;
+    width:100%;
+    height:150px;
+    background-color:var(--just-white);
+
+}
+.footer-section{
+    display:flex;
+    justify-content:space-evenly;
+    align-self:center;
+}
+
+
+.footer-section .list__title{
+    color:var(--second-color-blue);
+    font-size:1.9rem;
+    font-weight: bold;
+}
+
+footer ul{
+    font-size:1.2rem;
+    font-weight:500;
+    line-height:1.8rem;
+    list-style:none;
+}
+
+.left,.right li{
+    margin:10px 0;
+    cursor:pointer;
+}
+
+ul a{
+    text-decoration:none;
+    color:var(--second-color-blue);
+}
